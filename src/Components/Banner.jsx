@@ -5,8 +5,8 @@ import Button from "./Button";
 const Banner = () => {
   return (
     <div className="container mx-auto">
-      <div className=" m-15">
-        <div className="flex flex-col-reverse gap-6  items-center lg:flex-row lg:justify-between">
+      <div className="px-2 my-15">
+        <div className="w-full flex flex-col-reverse gap-6 items-center lg:flex-row lg:justify-between">
           {/* content */}
           <div className="max-w-160">
             {/* status */}
