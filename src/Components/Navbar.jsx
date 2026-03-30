@@ -4,7 +4,7 @@ import logo from "../assets/DigiTools.png";
 <img src={logo} alt="website logo" />;
 const Navbar = () => {
   return (
-    <div className="w-full shadow-sm sticky top-0 z-50">
+    <div className="w-full shadow-sm sticky top-0 z-50 ">
       {/* start navbar */}
       <div className="container mx-auto navbar bg-base-100  py-2">
         <div className="navbar-start">
