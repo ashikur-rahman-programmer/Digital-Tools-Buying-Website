@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Advanced AI writing assistant that helps create high-quality content, blog posts, emails, and marketing copy in seconds.",
+    "price": 39,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": [
+      "Unlimited AI generations",
+      "Multiple writing tones",
+      "Plagiarism checker",
+      "SEO optimization",
+      "Export to Word & PDF"
+    ],
+    "icon": "https://i.ibb.co.com/Kp7GcGHb/design-tool.png"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "Huge collection of 5000+ premium, modern and professional design templates for social media, presentations, websites and more.",
+    "price": 59,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "5000+ premium templates",
+      "Fully customizable",
+      "Social media kits",
+      "Presentation templates",
+      "Commercial license included"
+    ],
+    "icon": "https://i.ibb.co.com/Tq8g9j1s/operation.png"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "Access to millions of high-quality premium stock photos, videos, vectors, icons and illustrations for commercial use.",
+    "price": 79,
+    "period": "yearly",
+    "tag": "",
+    "tagType": "",
+    "features": [
+      "Millions of assets",
+      "4K videos & photos",
+      "Vectors & illustrations",
+      "Commercial usage rights",
+      "Regular new uploads"
+    ],
+    "icon": "https://i.ibb.co.com/fVLHFTfL/portfolio.png"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Powerful no-code automation tool to connect apps, automate repetitive tasks and build smart workflows.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "500+ app integrations",
+      "Drag & drop workflow builder",
+      "Scheduled automations",
+      "Multi-step workflows",
+      "Real-time monitoring"
+    ],
+    "icon": "https://i.ibb.co.com/V6QgkBh/stock.png"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Professional AI-powered resume builder with ATS optimization, modern templates and instant PDF export.",
+    "price": 35,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": [
+      "200+ ATS-friendly templates",
+      "AI content suggestions",
+      "Real-time ATS scoring",
+      "LinkedIn optimization",
+      "Export to PDF & Word"
+    ],
+    "icon": "https://i.ibb.co.com/dsTNr5GM/writing-2327400-1.png"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "Complete toolkit with AI-generated captions, hashtags, post ideas and content calendar for all social platforms.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "AI caption generator",
+      "Hashtag suggestions",
+      "Content calendar",
+      "Viral post ideas",
+      "Multi-platform support"
+    ],
+    "icon": "https://i.ibb.co.com/yns9xtLG/social-media.png"
+  },
+  {
+    "id": 7,
+    "name": "Email Marketing Pro",
+    "description": "Advanced email marketing automation with AI subject lines, templates and detailed analytics.",
+    "price": 45,
+    "period": "monthly",
+    "tag": "",
+    "tagType": "",
+    "features": [
+      "Unlimited email campaigns",
+      "AI subject line generator",
+      "Drag & drop editor",
+      "A/B testing",
+      "Detailed analytics"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968958.png"
+  },
+  {
+    "id": 8,
+    "name": "Video Creator AI",
+    "description": "Create professional videos with AI voiceover, script generation, and ready-to-use templates.",
+    "price": 69,
+    "period": "yearly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "AI voiceover in 50+ languages",
+      "Text to video",
+      "Script generator",
+      "Stock footage library",
+      "4K export"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135789.png"
+  },
+  {
+    "id": 9,
+    "name": "SEO Booster Pro",
+    "description": "Complete SEO toolkit with keyword research, competitor analysis, and rank tracking.",
+    "price": 32,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Keyword research tool",
+      "Competitor analysis",
+      "Rank tracking",
+      "Backlink checker",
+      "On-page SEO optimizer"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135726.png"
+  },
+  {
+    "id": 10,
+    "name": "Freelance Dashboard",
+    "description": "All-in-one freelance management tool with proposals, invoicing, client CRM and time tracking.",
+    "price": 22,
+    "period": "monthly",
+    "tag": "",
+    "tagType": "",
+    "features": [
+      "Proposal & contract builder",
+      "Invoice & payment tracking",
+      "Client CRM",
+      "Time tracking",
+      "Income reports"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+  }
+]

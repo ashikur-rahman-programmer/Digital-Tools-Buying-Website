@@ -4,7 +4,7 @@ const StateSection = () => {
   return (
     <div className="w-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white">
       <div className="container mx-auto flex justify-center">
-        <div className="stats stats-vertical lg:stats-horizontal shadow">
+        <div className="stats stats-vertical lg:stats-horizontal shadow w-full overflow-x-hidden">
           <div className="stat place-items-center space-y-2 m-8 lg:m-15  lg:border-r-2 lg:border-r-gray-300">
             <div className="stat-value text-6xl">50K+</div>
             <div className="stat-desc text-2xl text-gray-300">Active Users</div>
