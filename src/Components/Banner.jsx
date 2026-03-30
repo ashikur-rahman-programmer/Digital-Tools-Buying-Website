@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <div className="container mx-auto">
       <div className="px-2 my-15">
-        <div className="w-full flex flex-col-reverse gap-6 items-center lg:flex-row lg:justify-between">
+        <div className="w-full flex flex-col-reverse gap-6 items-center justify-center lg:flex-row lg:justify-between">
           {/* content */}
           <div className="max-w-160">
             {/* status */}
@@ -18,7 +18,7 @@ const Banner = () => {
               </p>
             </div>
             {/* content start */}
-            <h1 className="text-7xl font-extrabold leading-21">
+            <h1 className="text-5xl md:text-7xl font-extrabold md:leading-21">
               Supercharge Your Digital Workflow
             </h1>
             <p className="py-6">
@@ -33,8 +33,8 @@ const Banner = () => {
               </button>
             </div>
           </div>
-          <figure>
-            <img src={bannerImg} className="max-w-sm rounded-lg shadow-xl" />
+          <figure className="max-w-sm">
+            <img src={bannerImg} className="w-full rounded-lg shadow-xl" />
           </figure>
         </div>
       </div>

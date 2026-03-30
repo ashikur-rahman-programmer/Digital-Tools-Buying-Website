@@ -45,11 +45,19 @@ const Navbar = () => {
               <li>
                 <a>FAQ</a>
               </li>
+              <li>
+                <a className="cursor-pointer">
+                  <ShoppingCart />
+                </a>
+              </li>
+              <li>
+                <a className="btn">Login</a>
+              </li>
             </ul>
           </div>
           {/* logo */}
           <a>
-            <img src={logo} alt="website logo" />
+            <img src={logo} alt="website logo" className="h-7 md:h-10" />
           </a>
 
           {/* items */}
@@ -76,10 +84,10 @@ const Navbar = () => {
 
         {/* btns */}
         <div className="navbar-end gap-4">
-          <a className="cursor-pointer">
+          <a className="cursor-pointer hidden lg:flex">
             <ShoppingCart />
           </a>
-          <button className="btn">Login</button>
+          <a className="btn hidden lg:flex">Login</a>
           <a className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white ">
             Get Started
           </a>
