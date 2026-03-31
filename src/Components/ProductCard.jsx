@@ -1,13 +1,10 @@
-import React from "react";
-import Button from "./Button";
 import { Check } from "lucide-react";
 
-const ProductCard = ({ item }) => {
-  console.log(item.name);
+const ProductCard = ({ item, handleAddToCart, cart }) => {
+  const isBuy = cart.some((i) => i.id === item.id);
 
   // badge color conditional
-  let badgeColor = "bg-gray-100 text-gray-600"; // Default color
-
+  let badgeColor = "bg-gray-100 text-gray-600";
   if (item.tagType === "best seller") {
     badgeColor = "bg-orange-200 text-orange-600";
   } else if (item.tagType === "popular") {
@@ -41,15 +38,21 @@ const ProductCard = ({ item }) => {
             </span>
           </div>
           <ul className=" flex flex-col gap-2 text-xs">
-            {item.features.map((list) => (
-              <li className="flex items-center gap-2">
+            {item.features.map((list, index) => (
+              <li key={index} className="flex items-center gap-2">
                 <Check className="text-green-500" />
                 <span>{list}</span>
               </li>
             ))}
           </ul>
           <div className="">
-            <Button className="w-full">Buy Now</Button>
+            <button
+              onClick={() => handleAddToCart(item)}
+              className="w-full btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white"
+              disabled={isBuy}
+            >
+              {isBuy ? "Added To Cart" : "Buy Now"}
+            </button>
           </div>
         </div>
       </div>

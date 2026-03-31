@@ -2,7 +2,7 @@ import { ShoppingCart } from "lucide-react";
 import logo from "../assets/DigiTools.png";
 
 <img src={logo} alt="website logo" />;
-const Navbar = () => {
+const Navbar = ({ cartCount }) => {
   return (
     <div className="w-full bg-white shadow-sm sticky top-0 z-50 ">
       {/* start navbar */}
@@ -45,10 +45,18 @@ const Navbar = () => {
               <li>
                 <a>FAQ</a>
               </li>
-              <li>
-                <a className="cursor-pointer">
-                  <ShoppingCart />
-                </a>
+              <li className="mt-2">
+                <div className="indicator">
+                  {cartCount > 0 && (
+                    <span className="indicator-item badge badge-secondary badge-xs">
+                      {cartCount}
+                    </span>
+                  )}
+
+                  <a className="cursor-pointer">
+                    <ShoppingCart />
+                  </a>
+                </div>
               </li>
               <li>
                 <a className="btn">Login</a>
@@ -84,9 +92,17 @@ const Navbar = () => {
 
         {/* btns */}
         <div className="navbar-end gap-4">
-          <a className="cursor-pointer hidden lg:flex">
-            <ShoppingCart />
-          </a>
+          <div className="indicator hidden lg:flex">
+            {cartCount > 0 && (
+              <span className="indicator-item badge badge-secondary badge-xs">
+                {cartCount}
+              </span>
+            )}
+            <a className="cursor-pointer ">
+              <ShoppingCart />
+            </a>
+          </div>
+
           <a className="btn hidden lg:flex">Login</a>
           <a className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white ">
             Get Started
