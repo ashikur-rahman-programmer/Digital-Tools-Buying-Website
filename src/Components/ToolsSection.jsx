@@ -1,9 +1,9 @@
 import React, { use } from "react";
 import Tab from "./Tab";
+import ProductCard from "./ProductCard";
 
 const ToolsSection = ({ dataPromise }) => {
   const data = use(dataPromise);
-  console.log(data);
 
   return (
     <div className="container mx-auto my-30">
@@ -18,6 +18,14 @@ const ToolsSection = ({ dataPromise }) => {
 
       {/* btn tab */}
       <Tab />
+
+      {/* all cards */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {data.map((item) => (
+          <ProductCard key={item.id} item={item} />
+        ))}
+        {/* <ProductCard data={data} /> */}
+      </div>
     </div>
   );
 };

@@ -39,8 +39,8 @@
     "description": "Access to millions of high-quality premium stock photos, videos, vectors, icons and illustrations for commercial use.",
     "price": 79,
     "period": "yearly",
-    "tag": "",
-    "tagType": "",
+    "tag": "New",
+    "tagType": "new",
     "features": [
       "Millions of assets",
       "4K videos & photos",
@@ -107,8 +107,8 @@
     "description": "Advanced email marketing automation with AI subject lines, templates and detailed analytics.",
     "price": 45,
     "period": "monthly",
-    "tag": "",
-    "tagType": "",
+    "tag": "New",
+    "tagType": "new",
     "features": [
       "Unlimited email campaigns",
       "AI subject line generator",
@@ -147,26 +147,9 @@
       "Keyword research tool",
       "Competitor analysis",
       "Rank tracking",
-      "Backlink checker",
+      "Back link checker",
       "On-page SEO optimizer"
     ],
     "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135726.png"
-  },
-  {
-    "id": 10,
-    "name": "Freelance Dashboard",
-    "description": "All-in-one freelance management tool with proposals, invoicing, client CRM and time tracking.",
-    "price": 22,
-    "period": "monthly",
-    "tag": "",
-    "tagType": "",
-    "features": [
-      "Proposal & contract builder",
-      "Invoice & payment tracking",
-      "Client CRM",
-      "Time tracking",
-      "Income reports"
-    ],
-    "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
   }
 ]
