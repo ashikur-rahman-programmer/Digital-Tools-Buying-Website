@@ -21,18 +21,24 @@ const Cart = ({ cart, setCart }) => {
     <div className="container mx-auto">
       {/* cart cards */}
       {cart.length > 0 ? (
-        <div className="p-10 space-y-6">
+        <div className="p-2 space-y-6">
           <h2 className="text-4xl font-semibold">Your Cart</h2>
           <div className="grid grid-cols-1 gap-4 shadow-sm rounded-xl">
             {cart.map((item) => (
               <div
                 key={item.id}
-                className="flex justify-between items-center gap-6 m-5 bg-gray-50 rounded-xl p-5"
+                className="flex justify-between items-center gap-6 m-2 md:m-5 bg-gray-50 rounded-xl p-2 md:p-5"
               >
                 <div className="flex gap-6 items-center">
-                  <img src={item.icon} className="w-10 h-10" alt={item.name} />
+                  <img
+                    src={item.icon}
+                    className="w-8 h-8 md:w-10 md:h-10"
+                    alt={item.name}
+                  />
                   <div className="flex flex-col gap-1">
-                    <h3 className="text-[20px] font-bold">{item.name}</h3>
+                    <h3 className="text-[14px] md:text-[20px] font-bold">
+                      {item.name}
+                    </h3>
                     <span className="text-[16px] text-gray-500 font-semibold">
                       ${item.price}
                     </span>
@@ -41,7 +47,7 @@ const Cart = ({ cart, setCart }) => {
                 <div className="">
                   <button
                     onClick={() => handleRemove(item.id)}
-                    className="text-[16px] text-[#FF3980] font-semibold btn"
+                    className="text-[14px] md:text-[16px] text-[#FF3980] font-semibold btn"
                   >
                     Remove
                   </button>
@@ -54,7 +60,7 @@ const Cart = ({ cart, setCart }) => {
             <p className="text-2xl font-extrabold">${totalAmount}</p>
           </div>
           <div>
-            <Button onClick={handlePayment} className="w-full py-5 ">
+            <Button onClick={handlePayment} className="w-full py-4 md:py-6 ">
               Proceed to Checkout
             </Button>
           </div>
