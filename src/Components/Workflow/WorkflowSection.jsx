@@ -3,7 +3,7 @@ import React from "react";
 const WorkflowSection = () => {
   return (
     <div className="w-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white">
-      <div className="container mx-auto flex flex-col justify-center items-center gap-10 py-30 px-2">
+      <div className="container mx-auto flex flex-col justify-center items-center gap-10 py-16  md:py-30 px-2">
         {/* header */}
         <div className="text-center">
           <h2 className="text-3xl md:text-[40px] font-extrabold mb-4">

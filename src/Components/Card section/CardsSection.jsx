@@ -2,7 +2,7 @@ import React from "react";
 
 const CardsSection = () => {
   return (
-    <div className="container mx-auto space-y-10 my-30 px-2">
+    <div className="container mx-auto space-y-10 my-16 md:my-30 px-2">
       {/* header */}
       <div className="text-center">
         <h2 className="text-4xl md:text-5xl font-extrabold mb-4">
