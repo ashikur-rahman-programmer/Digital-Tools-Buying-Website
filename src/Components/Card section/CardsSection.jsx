@@ -11,16 +11,16 @@ const CardsSection = () => {
         </p>
       </div>
 
-      {/* 3 cards */}
-      <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
+      {/* all cards */}
+      <div className="grid grid-cols-1 justify-items-center md:grid-cols-2 lg:grid-cols-3 gap-4">
         {/* card 1*/}
-        <div className="card bg-base-100 w-96 shadow-md text-center space-y-4 p-6  ">
+        <div className="card bg-base-100 h-96 max-w-96 shadow-md text-center space-y-4 p-6  ">
           <div className="flex items-center justify-end ">
             <span className="py-2 px-3 text-white bg-blue-700 rounded-full">
               01
             </span>
           </div>
-          <figure className="w-20 h-20 bg-gray-200 rounded-full flex mx-auto">
+          <figure className="w-20 h-20 bg-gray-200 rounded-full flex justify-center items-center mx-auto">
             <img
               className="w-16 h-16 object-contain"
               src="https://i.ibb.co.com/CsQ2w2SW/user.png"
@@ -39,13 +39,13 @@ const CardsSection = () => {
         </div>
 
         {/* card 2*/}
-        <div className="card bg-base-100 w-96 shadow-md text-center space-y-4 p-6  ">
+        <div className="card bg-base-100 h-96 max-w-96 shadow-md text-center space-y-4 p-6  ">
           <div className="flex items-center justify-end ">
             <span className="py-2 px-3 text-white bg-blue-700 rounded-full">
               02
             </span>
           </div>
-          <figure className="w-20 h-20 bg-gray-200 rounded-full flex mx-auto">
+          <figure className="w-20 h-20 bg-gray-200 rounded-full flex justify-center items-center mx-auto">
             <img
               className="w-16 h-16 object-contain"
               src="https://i.ibb.co.com/8D2xkn1t/package.png"
@@ -61,15 +61,15 @@ const CardsSection = () => {
         </div>
 
         {/* card 3*/}
-        <div className="card bg-base-100 w-96 shadow-md text-center space-y-4 p-6  ">
+        <div className="card bg-base-100 h-96 max-w-96 shadow-md text-center space-y-4 p-6  ">
           <div className="flex items-center justify-end ">
             <span className="py-2 px-3 text-white bg-blue-700 rounded-full">
               03
             </span>
           </div>
-          <figure className="w-20 h-20 bg-gray-200 rounded-full flex mx-auto">
+          <figure className="w-20 h-20 bg-gray-200 rounded-full flex justify-center items-center mx-auto">
             <img
-              className="w-16 h-16 object-contain"
+              className="w-12 h-12 object-contain"
               src="https://i.ibb.co.com/hxxS3VnP/rocket.png"
               alt="Start Creating icon"
             />
