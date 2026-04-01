@@ -2,11 +2,13 @@ import React from "react";
 
 const CardsSection = () => {
   return (
-    <div className="container mx-auto space-y-10 my-30">
+    <div className="container mx-auto space-y-10 my-30 px-2">
       {/* header */}
       <div className="text-center">
-        <h2 className="text-5xl font-extrabold mb-4">Get Started in 3 Steps</h2>
-        <p className="text-lg text-gray-600 mb-4">
+        <h2 className="text-4xl md:text-5xl font-extrabold mb-4">
+          Get Started in 3 Steps
+        </h2>
+        <p className="text-sm md:text-lg text-gray-600 mb-4">
           Start using premium digital tools in minutes, not hours.
         </p>
       </div>

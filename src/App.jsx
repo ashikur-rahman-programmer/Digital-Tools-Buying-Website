@@ -6,6 +6,7 @@ import StateSection from "./Components/StateSection";
 import Tab from "./Components/Tab";
 import { toast, ToastContainer } from "react-toastify";
 import CardsSection from "./Components/Card section/CardsSection";
+import TransparentPricing from "./Components/TransparentPricing/TransparentPricing";
 
 const fetchData = async () => {
   const res = await fetch("/data.json");
@@ -13,6 +14,13 @@ const fetchData = async () => {
 };
 
 const dataPromise = fetchData();
+
+// pricing cards
+const fetchPrice = async () => {
+  const res = await fetch("/pricing.json");
+  return await res.json();
+};
+const pricePromise = fetchPrice();
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -46,6 +54,7 @@ function App() {
       </Suspense>
 
       <CardsSection />
+      <TransparentPricing pricePromise={pricePromise} />
       <ToastContainer />
     </>
   );

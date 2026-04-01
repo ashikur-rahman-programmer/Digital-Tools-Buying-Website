@@ -7,11 +7,13 @@ const Tab = ({ dataPromise, cart, setCart, handleAddToCart }) => {
   const [activeTab, setActiveTab] = useState("Products");
 
   return (
-    <div className="container mx-auto my-30">
+    <div className="container mx-auto my-30 px-2">
       {/* header */}
       <div className="text-center">
-        <h2 className="text-5xl font-extrabold mb-4">Premium Digital Tools</h2>
-        <p className="text-lg text-gray-600 mb-4">
+        <h2 className="text-4xl md:text-5xl font-extrabold mb-4">
+          Premium Digital Tools
+        </h2>
+        <p className="text-sm md:text-lg text-gray-600 mb-4">
           Choose from our curated collection of premium digital products
           designed <br /> to boost your productivity and creativity.
         </p>

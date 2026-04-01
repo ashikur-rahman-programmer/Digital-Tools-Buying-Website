@@ -34,7 +34,7 @@ const ProductCard = ({ item, handleAddToCart, cart }) => {
               {item.description}
             </p>
             <span className="text-xl">
-              <strong className="text-xl">$29</strong>/{item.period}
+              <strong className="text-xl">${item.price}</strong>/{item.period}
             </span>
           </div>
           <ul className=" flex flex-col gap-2 text-xs">

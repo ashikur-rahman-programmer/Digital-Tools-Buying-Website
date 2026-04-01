@@ -2,7 +2,7 @@ import ProductCard from "./ProductCard";
 
 const ToolsSection = ({ data, handleAddToCart, cart }) => {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto px-2">
       {/* all cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {data.map((item) => (
