@@ -26,7 +26,7 @@ const Tab = ({ dataPromise, cart, setCart, handleAddToCart }) => {
             onClick={() => setActiveTab("Products")}
             type="radio"
             name="my_tabs_1"
-            className="tab text-lg h-12 px-10 shadow-md rounded-full checked:bg-linear-to-r from-[#4F39F6] to-[#9514FA] checked:text-white transition-all duration-300"
+            className="tab text-lg h-10 md:h-12 px-10 shadow-md rounded-full checked:bg-linear-to-r from-[#4F39F6] to-[#9514FA] checked:text-white transition-all duration-300"
             aria-label="Products"
             defaultChecked
           />
@@ -34,7 +34,7 @@ const Tab = ({ dataPromise, cart, setCart, handleAddToCart }) => {
             onChange={() => setActiveTab("Cart")}
             type="radio"
             name="my_tabs_1"
-            className="tab text-lg h-12 px-10 shadow-md rounded-full checked:bg-linear-to-r from-[#4F39F6] to-[#9514FA] checked:text-white transition-all duration-300"
+            className="tab text-lg h-10 md:h-12 px-10 shadow-md rounded-full checked:bg-linear-to-r from-[#4F39F6] to-[#9514FA] checked:text-white transition-all duration-300"
             aria-label="Cart"
           />
         </div>
