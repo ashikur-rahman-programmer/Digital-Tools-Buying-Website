@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar";
 import StateSection from "./Components/StateSection";
 import Tab from "./Components/Tab";
 import { toast, ToastContainer } from "react-toastify";
+import CardsSection from "./Components/Card section/CardsSection";
 
 const fetchData = async () => {
   const res = await fetch("/data.json");
@@ -44,6 +45,7 @@ function App() {
         />
       </Suspense>
 
+      <CardsSection />
       <ToastContainer />
     </>
   );
