@@ -1,7 +1,5 @@
 import { ShoppingCart } from "lucide-react";
-import logo from "../assets/DigiTools.png";
 
-<img src={logo} alt="website logo" />;
 const Navbar = ({ cartCount }) => {
   return (
     <div className="w-full bg-white shadow-sm sticky top-0 z-50 ">
@@ -65,7 +63,11 @@ const Navbar = ({ cartCount }) => {
           </div>
           {/* logo */}
           <a>
-            <img src={logo} alt="website logo" className="h-7 md:h-10" />
+            <img
+              src="https://i.ibb.co.com/n81ktk8P/Digi-Tools.png"
+              alt="website logo"
+              className="h-7 md:h-10"
+            />
           </a>
 
           {/* items */}
