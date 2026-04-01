@@ -20,7 +20,7 @@ const Tab = ({ dataPromise, cart, setCart, handleAddToCart }) => {
       </div>
 
       {/* tab section */}
-      <div className="w-full  flex justify-center mb-10 sticky top-16.25 z-40">
+      <div className="w-full  flex justify-center mb-10 ">
         <div className="tabs tabs-box  bg-white border-2 border-gray-100 p-2 rounded-full w-fit">
           <input
             onClick={() => setActiveTab("Products")}
